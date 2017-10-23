@@ -6,6 +6,8 @@ RUN mkdir /workspace/ -p
 COPY . /workspace/
 WORKDIR /workspace/
 
+RUN npm config set registry http://nexus.daocloud.io/repository/daocloud-npm
+
 RUN npm install
 
 RUN npm run build
