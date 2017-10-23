@@ -3,7 +3,7 @@
     <div>
       <logo/>
       <h1 class="title">
-        dao
+        道可道，非常道。
       </h1>
       <h2 class="subtitle">
         Nuxt.js project
